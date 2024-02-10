@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/duck.png">
+    <script src="./assets/js/script.js" defer></script>
+    <title>Wak-Wak Translate</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/duck.png" id="headerImage">
+        <h1>WakWak Translator </h1>
+    </header>
+    <div id="container">
+        <div id="textContainer">
+            <div id="from">
+                <select id="selectFrom">
+                    <option>Select language</option>
+                </select>
+                <textarea id="textFrom" class="textArea"></textarea>
+            </div>
+            <div id="btnDiv">
+                <img id="duckImage" src="./assets/images/duck.png">
+                <button id="btn">Translate</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+            <div id="to">
+                <select id="selectTo">
+                    <option>Select language</option>
+                </select>
+                <textarea id="textTo" class="textArea" readonly></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

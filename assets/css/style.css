@@ -1,0 +1,98 @@
+#textContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    gap: 190px;
+}
+.textArea{
+    width: 500px;
+    height: 200px;
+    font-size: 30px;
+    resize: none;
+    border: 3px solid #000;
+    border-radius: 0px 0px 30px 30px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10 px;
+}
+#textFrom{
+    background-color: #fff;
+}
+#textTo{
+    background-color: #F5F5F5;
+}
+#duckImage{
+    width: 200px;
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+header h1{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top: 5px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+#headerImage{
+    width: 100px;
+}
+#btn{
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    background-color: #F9BB4B;
+    border: 6px solid #000;
+    border-radius: 30px;
+    top: 320px;
+    left: 660px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.2s;
+}
+#btn:hover{
+    background-color: #fff;
+    border: 6px solid #F9BB4B;
+    color: #F9BB4B;
+}
+#selectFrom , #selectTo{
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F9BB4B;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#from , #to{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#clearBtn{
+    position: absolute;
+    cursor: pointer;
+    top: 400px;
+    left: 725px;
+    background-color: #F5F5F5;
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    font-size: 17px;
+}
