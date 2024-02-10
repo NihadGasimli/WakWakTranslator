@@ -108,15 +108,18 @@ header h1{
     header h1{
         font-size: 30px;
     }
+    #btn{
+        font-size: 30px;
+    }
     #textContainer{
         display: flex;
         flex-direction: column;
         margin-top: 40px;
     }
     .textArea{
-        width: 400px;
+        width: 350px;
     }
     #selectFrom , #selectTo{
-        width: 400px;
+        width: 350px;
     }
 }
