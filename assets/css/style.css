@@ -6,7 +6,7 @@
     margin-top: 100px;
     text-align: center;
     border-radius: 10px;
-    gap: 190px;
+    gap: 77px;
 }
 .textArea{
     width: 500px;
@@ -50,7 +50,6 @@ header h1{
     width: 100px;
 }
 #btn{
-    position: absolute;
     background-color: transparent;
     border: 0px;
     background-color: #F9BB4B;
@@ -86,7 +85,6 @@ header h1{
     cursor: pointer;
 }
 #clearBtn{
-    position: absolute;
     cursor: pointer;
     top: 400px;
     left: 725px;
@@ -95,4 +93,30 @@ header h1{
     height: 25px;
     border-radius: 30px;
     font-size: 17px;
+}
+
+#btnDiv{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media (max-width:767px){
+    header h1{
+        font-size: 30px;
+    }
+    #textContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .textArea{
+        width: 400px;
+    }
+    #selectFrom , #selectTo{
+        width: 400px;
+    }
 }

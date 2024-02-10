@@ -107,13 +107,11 @@ btn.addEventListener("click", async () => {
 function yeahBuddy() {
     btn.style.display = "none"
     clearBtn.style.display = "none"
-    textContainer.style.gap = "90px"
     duckImage.style.display = "block"
 }
 function offYeahBuddy() {
     btn.style.display = "block"
     clearBtn.style.display = "block"
-    textContainer.style.gap = "190px"
     duckImage.style.display = "none"
 }
 function oYeah() {
